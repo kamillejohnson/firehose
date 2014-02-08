@@ -1,11 +1,13 @@
-<div class="span5 text-center hottub-layer">
-	<h2>
+<div class="span6 offset4 text-center hottub-layer">
+	<h1 class = "custom-font">
 		whats good
+		</h1>
+		<br />
 		<%= simple_form_for @pic do |f| %>
-		<%= f.input :hour %>
-		<%= f.input :emotion %>
-		<%= f.input :learned %>
-		<%= f.submit 'Save' %>
+		<%= f.input :hour, label: 'Which hour?', placeholder: '1,2,3' %>
+		<%= f.input :emotion, label: 'How are you feeling?', placeholder: 'Stoked, Excited, Confused' %>
+		<%= f.input :learned, label: 'What did you learn?', placeholder: 'HTML, CSS3, Rails, Ruby, Github' %>
+		<br />
+		<%= f.submit 'Save', :class => 'btn btn-danger' %>
 		<% end %>
-	</h2>
 </div>
