@@ -1,20 +1,23 @@
-<div class="hottub-layer">
-
-		<h2> 
 
 
-<% @pics.each do |pics| %>
-Hour: <%= pics.hour %>
-<br />
-Emotion: <%= pics.emotion %>
-<br />
-Learned: <%= pics.learned %>
-<br />
-
-<% end %> 
+<h2> 
 
 
-		 </h2>
+	<% @pics.each do |pics| %>
+	<div class="span3 text-center hottub-layer">
+		<h1 class= "custom-font"> Hour: <%= pics.hour %> </h1>
+		<h2>
+			<br />
+			Emotion: <%= pics.emotion %>
+			<br />
+			Learned: <%= pics.learned %>
+			<br />
+		</h2>
+	</div>
+	<% end %> 
 
-</div>
+
+</h2>
+
+
 
