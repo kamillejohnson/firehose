@@ -5,7 +5,8 @@
 		<br />
 		<%= simple_form_for @pic do |f| %>
 		<%= f.input :hour, label: 'Which hour?', placeholder: '1,2,3' %>
-		<%= f.input :image, label: 'show me what you got' %>
+		<h3>selfie </h3>
+		<div class = "move-button"> <%= f.input :image, label: 'show me what you got' %></div>
 		<%= f.input :emotion, label: 'How are you feeling?', placeholder: 'Stoked, Excited, Confused' %>
 		<%= f.input :learned, label: 'What did you learn?', placeholder: 'HTML, CSS3, Rails, Ruby, Github' %>
 		<br />

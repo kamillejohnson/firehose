@@ -37,9 +37,10 @@ gem "twitter-bootstrap-rails"
 
 #this is the gem for the forms
 gem 'simple_form'
-
+#this will let you upload images
 gem 'carrierwave'
-
+#needed for Amazon s3, "~> 1.3.1" tells which version to use
+gem "fog", "~> 1.3.1"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
