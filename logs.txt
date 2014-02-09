@@ -1,0 +1,203 @@
+2014-02-09T17:41:14.977543+00:00 heroku[run.8139]: Awaiting client
+2014-02-09T17:41:15.024099+00:00 heroku[run.8139]: Starting process with command `bundle exec rake db:migrate`
+2014-02-09T17:41:15.141000+00:00 heroku[run.8139]: State changed from starting to up
+2014-02-09T17:41:18.858311+00:00 heroku[run.8139]: Process exited with status 0
+2014-02-09T17:41:18.870577+00:00 heroku[run.8139]: State changed from up to complete
+2014-02-09T17:41:34.061474+00:00 app[web.1]: [deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+2014-02-09T17:41:34.085642+00:00 heroku[router]: at=info method=GET path=/pics/new host=firehose-kamille.herokuapp.com request_id=a8750d49-37af-4121-8291-fdfbefd8b4fd fwd="198.7.247.227" dyno=web.1 connect=11ms service=56ms status=304 bytes=0
+2014-02-09T17:41:32.345366+00:00 heroku[router]: at=info method=GET path=/assets/application-59f6e52ef45764c85e4f2019cac6443e.css host=firehose-kamille.herokuapp.com request_id=3e912046-90f5-4baa-96d4-bd92b2e3aa4f fwd="198.7.247.227" dyno=web.1 connect=11ms service=47ms status=304 bytes=0
+2014-02-09T17:41:32.290035+00:00 heroku[router]: at=info method=GET path=/assets/application-d2a7c489a5948c36bb3c2726953ada08.js host=firehose-kamille.herokuapp.com request_id=9276d797-a8e3-41d5-ae5d-e1e59d3b7016 fwd="198.7.247.227" dyno=web.1 connect=2ms service=29ms status=304 bytes=0
+2014-02-09T17:41:32.453055+00:00 heroku[router]: at=info method=GET path=/assets/background.jpg host=firehose-kamille.herokua
+pp.com request_id=f71c9dfe-6ca0-47cc-9dae-cd3748dd112e fwd="198.7.247.227" dyno=web.1 connect=1ms service=8ms status=304 bytes=0
+2014-02-09T17:41:32.200280+00:00 heroku[router]: at=info method=GET path=/ host=firehose-kamille.herokuapp.com request_id=ce5632cc-869e-4228-80fd-43b630dbd979 fwd="198.7.247.227" dyno=web.1 connect=2ms service=83ms status=304 bytes=0
+2014-02-09T17:44:35+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-09T17:45:16+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-02-09T17:45:16.597385+00:00 heroku[web.1]: State changed from up to starting
+2014-02-09T17:45:16.267684+00:00 heroku[api]: Deploy 4992867 by kamille.johnson94@gmail.com
+2014-02-09T17:45:16.304512+00:00 heroku[api]: Release v11 created by kamille.johnson94@gmail.com
+2014-02-09T17:45:18.859307+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-02-09T17:45:19.357053+00:00 app[web.1]: [2014-02-09 17:45:19] FATAL SignalException: SIGTERM
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2014-02-09T17:45:19.357291+00:00 app[web.1]: 	bin/rails:4:in `require'
+2014-02-09T17:45:19.357291+00:00 app[web.1]: [2014-02-09 17:45:19] INFO  WEBrick::HTTPServer#start done.
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-02-09T17:45:19.357291+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-02-09T17:45:19.357291+00:00 app[web.1]: 	bin/rails:4:in `<main>'
+2014-02-09T17:45:19.357053+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-02-09T17:45:19.357291+00:00 app[web.1]: [2014-02-09 17:45:19] INFO  going to shutdown ...
+2014-02-09T17:45:19.379666+00:00 app[web.1]: => Booting WEBrick
+2014-02-09T17:45:19.379666+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-02-09T17:45:19.379666+00:00 app[web.1]: I, [2014-02-09T17:41:32.116690 #2]  INFO -- : Started GET "/" for 198.7.247.227 at 2014-02-09 17:41:32 +0000
+2014-02-09T17:45:19.379666+00:00 app[web.1]: I, [2014-02-09T17:41:32.188463 #2]  INFO -- :   Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+2014-02-09T17:45:19.379666+00:00 app[web.1]: I, [2014-02-09T17:41:32.190250 #2]  INFO -- : Completed 200 OK in 27ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+2014-02-09T17:45:19.379921+00:00 app[web.1]: I, [2014-02-09T17:41:32.442104 #2]  INFO -- : Started GET "/assets/background.jpg" for 198.7.247.227 at 2014-02-09 17:41:32 +0000
+2014-02-09T17:45:19.379666+00:00 app[web.1]: I, [2014-02-09T17:41:32.163307 #2]  INFO -- : Processing by StaticPagesController#index as HTML
+2014-02-09T17:45:19.379666+00:00 app[web.1]: I, [2014-02-09T17:41:32.259692 #2]  INFO -- : Started GET "/assets/application-d2a7c489a5948c36bb3c2726953ada08.js" for 198.7.247.227 at 2014-02-09 17:41:32 +0000
+2014-02-09T17:45:19.379666+00:00 app[web.1]: I, [2014-02-09T17:41:32.297275 #2]  INFO -- : Started GET "/assets/application-59f6e52ef45764c85e4f2019cac6443e.css" for 198.7.247.227 at 2014-02-09 17:41:32 +0000
+2014-02-09T17:45:19.379921+00:00 app[web.1]: I, [2014-02-09T17:41:34.070419 #2]  INFO -- :   Rendered pics/new.html.erb within layouts/application (18.6ms)
+2014-02-09T17:45:19.379921+00:00 app[web.1]: I, [2014-02-09T17:41:34.071430 #2]  INFO -- : Completed 200 OK in 35ms (Views: 21.4ms | ActiveRecord: 11.1ms)
+2014-02-09T17:45:19.379921+00:00 app[web.1]: Exiting
+2014-02-09T17:45:19.379921+00:00 app[web.1]: I, [2014-02-09T17:41:34.035989 #2]  INFO -- : Processing by PicsController#new as HTML
+2014-02-09T17:45:19.379666+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:14357
+2014-02-09T17:45:19.379666+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-02-09T17:45:19.379921+00:00 app[web.1]: I, [2014-02-09T17:41:34.033556 #2]  INFO -- : Started GET "/pics/new" for 198.7.247.227 at 2014-02-09 17:41:34 +0000
+2014-02-09T17:45:20.570066+00:00 heroku[web.1]: Process exited with status 143
+2014-02-09T17:45:20.965234+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 26375 -e $RAILS_ENV`
+2014-02-09T17:45:30.678638+00:00 app[web.1]: [2014-02-09 17:45:30] INFO  WEBrick 1.3.1
+2014-02-09T17:45:30.678638+00:00 app[web.1]: [2014-02-09 17:45:30] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2014-02-09T17:45:30.679062+00:00 app[web.1]: [2014-02-09 17:45:30] INFO  WEBrick::HTTPServer#start: pid=2 port=26375
+2014-02-09T17:45:31.172750+00:00 heroku[web.1]: State changed from starting to up
+2014-02-09T17:46:28.124377+00:00 app[web.1]: [deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+2014-02-09T17:46:28.669618+00:00 heroku[router]: at=info method=GET path=/assets/background.jpg host=firehose-kamille.herokuapp.com request_id=813b0840-767c-46df-b98e-051ec2a52f36 fwd="198.7.247.227" dyno=web.1 connect=12ms service=26ms status=304 bytes=0
+2014-02-09T17:47:06.977077+00:00 heroku[web.1]: State changed from up to starting
+2014-02-09T17:47:09.707883+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: [2014-02-09 17:47:10] FATAL SignalException: SIGTERM
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2014-02-09T17:47:10.314731+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2014-02-09T17:47:10.314532+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
+2014-02-09T17:47:10.314731+00:00 app[web.1]: 	bin/rails:4:in `<main>'
+2014-02-09T17:47:10.314731+00:00 app[web.1]: 	bin/rails:4:in `require'
+2014-02-09T17:47:10.314731+00:00 app[web.1]: [2014-02-09 17:47:10] INFO  going to shutdown ...
+2014-02-09T17:47:10.315188+00:00 app[web.1]: [2014-02-09 17:47:10] INFO  WEBrick::HTTPServer#start done.
+2014-02-09T17:47:10.400126+00:00 app[web.1]: => Booting WEBrick
+2014-02-09T17:47:10.400126+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:26375
+2014-02-09T17:47:10.400126+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-02-09T17:47:10.400126+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-02-09T17:47:10.400126+00:00 app[web.1]: I, [2014-02-09T17:46:27.989622 #2]  INFO -- : Started GET "/pics/new" for 198.7.247.227 at 2014-02-09 17:46:27 +0000
+2014-02-09T17:47:10.400126+00:00 app[web.1]: I, [2014-02-09T17:46:28.072160 #2]  INFO -- : Processing by PicsController#new as HTML
+2014-02-09T17:47:10.400126+00:00 app[web.1]: I, [2014-02-09T17:46:28.138530 #2]  INFO -- :   Rendered pics/new.html.erb within layouts/application (26.4ms)
+2014-02-09T17:47:10.400126+00:00 app[web.1]: I, [2014-02-09T17:46:28.140798 #2]  INFO -- : Completed 200 OK in 68ms (Views: 31.1ms | ActiveRecord: 12.8ms)
+2014-02-09T17:47:10.400126+00:00 app[web.1]: I, [2014-02-09T17:46:28.204418 #2]  INFO -- : Started GET "/assets/application-1cf0e8abc069e328354702e6917bc516.css" for 198.7.247.227 at 2014-02-09 17:46:28 +0000
+2014-02-09T17:47:10.400126+00:00 app[web.1]: I, [2014-02-09T17:46:28.444264 #2]  INFO -- : Started GET "/assets/application-d2a7c489a5948c36bb3c2726953ada08.js" for 198.7.247.227 at 2014-02-09 17:46:28 +0000
+2014-02-09T17:47:10.400333+00:00 app[web.1]: I, [2014-02-09T17:46:28.650518 #2]  INFO -- : Started GET "/assets/background.jpg" for 198.7.247.227 at 2014-02-09 17:46:28 +0000
+2014-02-09T17:47:10.400333+00:00 app[web.1]: I, [2014-02-09T17:46:53.083221 #2]  INFO -- : Processing by PicsController#create as HTML
+2014-02-09T17:47:10.400333+00:00 app[web.1]: I, [2014-02-09T17:46:53.083391 #2]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/GCLT/EfTJSoFQifGgcB+WDQHZTEyKvDmb91G+rMC8U=", "pic"=>{"hour"=>"10", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fcfbecdbe60 @tempfile=#<Tempfile:/tmp/RackMultipart20140209-2-1ptkmgr>, @original_filename="ilUeGzT.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pic[image]\"; filename=\"ilUeGzT.jpg\"\r\nContent-Type: image/jpeg\r\n">, "emotion"=>"so stoked", "learned"=>"picture time"}, "commit"=>"Save"}
+2014-02-09T17:47:10.400333+00:00 app[web.1]: I, [2014-02-09T17:46:53.085559 #2]  INFO -- : Completed 500 Internal Server Error in 2ms
+2014-02-09T17:47:10.400333+00:00 app[web.1]: F, [2014-02-09T17:46:53.087085 #2] FATAL -- : 
+2014-02-09T17:47:10.400333+00:00 app[web.1]: NoMethodError (undefined method `image_will_change!' for #<Pic:0x007fcfbed25b50>):
+2014-02-09T17:47:10.400333+00:00 app[web.1]:   app/controllers/pics_controller.rb:17:in `create'
+2014-02-09T17:47:10.400333+00:00 app[web.1]: 
+2014-02-09T17:47:10.400333+00:00 app[web.1]: 
+2014-02-09T17:47:10.400333+00:00 app[web.1]: I, [2014-02-09T17:46:53.079900 #2]  INFO -- : Started POST "/pics" for 198.7.247.227 at 2014-02-09 17:46:53 +0000
+2014-02-09T17:47:10.400503+00:00 app[web.1]: Exiting
+2014-02-09T17:47:11.524490+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 48660 -e $RAILS_ENV`
+2014-02-09T17:47:12.530063+00:00 heroku[web.1]: Process exited with status 143
+2014-02-09T17:47:18.140342+00:00 app[web.1]: [2014-02-09 17:47:18] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2014-02-09T17:47:18.140211+00:00 app[web.1]: [2014-02-09 17:47:18] INFO  WEBrick 1.3.1
+2014-02-09T17:47:18.140901+00:00 app[web.1]: [2014-02-09 17:47:18] INFO  WEBrick::HTTPServer#start: pid=2 port=48660
+2014-02-09T17:47:18.457034+00:00 heroku[web.1]: State changed from starting to up
+2014-02-09T17:46:28.484642+00:00 heroku[router]: at=info method=GET path=/assets/application-d2a7c489a5948c36bb3c2726953ada08.js host=firehose-kamille.herokuapp.com request_id=7ea710d7-f36e-4958-8727-74834fb4f7bb fwd="198.7.247.227" dyno=web.1 connect=124ms service=45ms status=304 bytes=0
+2014-02-09T17:52:35.831107+00:00 app[web.1]: [2014-02-09 17:52:35] FATAL SignalException: SIGTERM
+2014-02-09T17:52:35.831107+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2014-02-09T17:52:35.831107+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
+2014-02-09T17:52:35.831107+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-02-09T17:52:35.831107+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-02-09T17:52:35.831107+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-02-09T17:52:35.831107+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-02-09T17:52:35.831307+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-02-09T17:52:35.831307+00:00 app[web.1]: 	bin/rails:4:in `require'
+2014-02-09T17:52:35.831307+00:00 app[web.1]: 	bin/rails:4:in `<main>'
+2014-02-09T17:52:35.831307+00:00 app[web.1]: [2014-02-09 17:52:35] INFO  going to shutdown ...
+2014-02-09T17:52:35.831307+00:00 app[web.1]: [2014-02-09 17:52:35] INFO  WEBrick::HTTPServer#start done.
+2014-02-09T17:52:35.880496+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-02-09T17:52:35.880496+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:11070
+2014-02-09T17:52:35.880496+00:00 app[web.1]: I, [2014-02-09T17:52:03.547025 #2]  INFO -- : Completed 200 OK in 28ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+2014-02-09T17:52:35.880496+00:00 app[web.1]: I, [2014-02-09T17:52:03.764742 #2]  INFO -- : Started GET "/assets/application-d2a7c489a5948c36bb3c2726953ada08.js" for 198.7.247.227 at 2014-02-09 17:52:03 +0000
+2014-02-09T17:52:35.880496+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-02-09T17:52:35.880496+00:00 app[web.1]: => Booting WEBrick
+2014-02-09T17:52:35.880496+00:00 app[web.1]: I, [2014-02-09T17:52:03.518738 #2]  INFO -- : Processing by StaticPagesController#index as HTML
+2014-02-09T17:52:35.880496+00:00 app[web.1]: I, [2014-02-09T17:52:03.894900 #2]  INFO -- : Started GET "/assets/background.jpg" for 198.7.247.227 at 2014-02-09 17:52:03 +0000
+2014-02-09T17:52:35.880496+00:00 app[web.1]: I, [2014-02-09T17:52:03.438427 #2]  INFO -- : Started GET "/" for 198.7.247.227 at 2014-02-09 17:52:03 +0000
+2014-02-09T17:52:35.880496+00:00 app[web.1]: I, [2014-02-09T17:52:03.544953 #2]  INFO -- :   Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:05.095257 #2]  INFO -- : Processing by PicsController#index as HTML
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:06.012055 #2]  INFO -- : Processing by PicsController#new as HTML
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:05.091739 #2]  INFO -- : Started GET "/pics" for 198.7.247.227 at 2014-02-09 17:52:05 +0000
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:05.128725 #2]  INFO -- :   Rendered pics/index.html.erb within layouts/application (28.8ms)
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:06.009532 #2]  INFO -- : Started GET "/pics/new" for 198.7.247.227 at 2014-02-09 17:52:06 +0000
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:05.131050 #2]  INFO -- : Completed 200 OK in 36ms (Views: 18.2ms | ActiveRecord: 15.2ms)
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:06.070463 #2]  INFO -- :   Rendered pics/new.html.erb within layouts/application (56.2ms)
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:06.071694 #2]  INFO -- : Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:15.866121 #2]  INFO -- : Processing by PicsController#create as HTML
+2014-02-09T17:52:35.880730+00:00 app[web.1]: I, [2014-02-09T17:52:15.862539 #2]  INFO -- : Started POST "/pics" for 198.7.247.227 at 2014-02-09 17:52:15 +0000
+2014-02-09T17:52:35.880902+00:00 app[web.1]: I, [2014-02-09T17:52:15.866293 #2]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/GCLT/EfTJSoFQifGgcB+WDQHZTEyKvDmb91G+rMC8U=", "pic"=>{"hour"=>"4", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f6787d1f880 @tempfile=#<Tempfile:/tmp/RackMultipart20140209-2-1yfzd3c>, @original_filename="moonwalk.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pic[image]\"; filename=\"moonwalk.jpg\"\r\nContent-Type: image/jpeg\r\n">, "emotion"=>"stoked", "learned"=>"pictures"}, "commit"=>"Save"}
+2014-02-09T17:52:35.880902+00:00 app[web.1]: I, [2014-02-09T17:52:16.438617 #2]  INFO -- : Completed 500 Internal Server Error in 572ms
+2014-02-09T17:52:35.880902+00:00 app[web.1]:   request => {:connect_timeout=>60, :headers=>{"Content-Length"=>22867, "Content-Type"=>"image/jpeg", "x-amz-acl"=>"public-read", "Date"=>"Sun, 09 Feb 2014 17:52:16 +0000", "Authorization"=>"AWS AKIAJ2XYXB3OTWCYRJFA:6i6y5v984aO8fw7P34P0LRYYu9I=", "Host"=>"s3.amazonaws.com:443"}, :instrumentor_name=>"excon", :mock=>false, :read_timeout=>60, :retry_limit=>4, :ssl_ca_file=>"/app/vendor/bundle/ruby/2.0.0/gems/excon-0.13.4/data/cacert.pem", :ssl_verify_peer=>true, :write_timeout=>60, :host=>"s3.amazonaws.com", :path=>"/firehose_app/uploads%2Fpic%2Fimage%2F4%2Fmoonwalk.jpg", :port=>"443", :query=>nil, :scheme=>"https", :body=>#<File:/app/public/uploads/tmp/1391968335-2-1539/moonwalk.jpg>, :expects=>200, :idempotent=>true, :method=>"PUT"}
+2014-02-09T17:52:35.880902+00:00 app[web.1]: Excon::Errors::Forbidden (Expected(200) <=> Actual(403 Forbidden)
+2014-02-09T17:52:35.880902+00:00 app[web.1]: [WARNING] fog: the specified s3 bucket name(firehose_app) is not a valid dns name, which will negatively impact performance.  For details see: http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketRestrictions.html
+2014-02-09T17:52:35.880902+00:00 app[web.1]: F, [2014-02-09T17:52:16.440838 #2] FATAL -- : 
+2014-02-09T17:52:35.880902+00:00 app[web.1]:   response => #<Excon::Response:0x007f678603a8c8 @body="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0E00183E57A51B91</RequestId><HostId>61MAXAmkDP9C/zfM/De/yhQRltJCYObeP8F6O7PRon+2foArBBGxErzYLtHaQV8LCI7gihtm968=</HostId></Error>", @headers={"Date"=>"Sun, 09 Feb 2014 17:52:16 GMT", "Server"=>"AmazonS3", "Connection"=>"keep-alive", "x-amz-id-2"=>"61MAXAmkDP9C/zfM/De/yhQRltJCYObeP8F6O7PRon+2foArBBGxErzYLtHaQV8LCI7gihtm968=", "Content-Type"=>"application/xml", "x-amz-request-id"=>"0E00183E57A51B91", "Transfer-Encoding"=>"chunked"}, @status=403>):
+2014-02-09T17:52:35.880902+00:00 app[web.1]:   app/controllers/pics_controller.rb:17:in `create'
+2014-02-09T17:52:35.880902+00:00 app[web.1]: 
+2014-02-09T17:52:35.880902+00:00 app[web.1]: 
+2014-02-09T17:52:35.881427+00:00 app[web.1]: Exiting
+2014-02-09T17:52:37.251326+00:00 heroku[web.1]: Process exited with status 143
+2014-02-09T17:52:38.141393+00:00 app[web.1]: [2014-02-09 17:52:38] INFO  WEBrick 1.3.1
+2014-02-09T17:52:38.141393+00:00 app[web.1]: [2014-02-09 17:52:38] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2014-02-09T17:52:38.141553+00:00 app[web.1]: [2014-02-09 17:52:38] INFO  WEBrick::HTTPServer#start: pid=2 port=41890
+2014-02-09T17:52:38.554098+00:00 heroku[web.1]: State changed from starting to up
+2014-02-09T17:52:39.645894+00:00 heroku[router]: at=info method=GET path=/ host=firehose-kamille.herokuapp.com request_id=8e4ccad2-ef67-46a0-8e8c-c3f3a7c743b2 fwd="198.7.247.227" dyno=web.1 connect=3ms service=239ms status=304 bytes=0
+2014-02-09T17:52:39.867903+00:00 heroku[router]: at=info method=GET path=/assets/background.jpg host=firehose-kamille.herokuapp.com request_id=24413990-fce4-4108-8cd4-edb01964255c fwd="198.7.247.227" dyno=web.1 connect=6ms service=17ms status=304 bytes=0
+2014-02-09T17:52:47.189213+00:00 app[web.1]: [deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+2014-02-09T17:52:59.076476+00:00 heroku[router]: at=info method=POST path=/pics host=firehose-kamille.herokuapp.com request_id=c6f49e6d-1957-41fd-a644-b8cc27a61ec1 fwd="198.7.247.227" dyno=web.1 connect=2ms service=733ms status=500 bytes=1266
+2014-02-09T17:53:12.782392+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-02-09T17:53:13.504626+00:00 app[web.1]: [2014-02-09 17:53:13] FATAL SignalException: SIGTERM
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-02-09T17:53:13.504837+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-02-09T17:53:13.504837+00:00 app[web.1]: 	bin/rails:4:in `require'
+2014-02-09T17:53:13.504837+00:00 app[web.1]: 	bin/rails:4:in `<main>'
+2014-02-09T17:53:13.504837+00:00 app[web.1]: [2014-02-09 17:53:13] INFO  going to shutdown ...
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2014-02-09T17:53:13.504626+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2014-02-09T17:53:13.505415+00:00 app[web.1]: [2014-02-09 17:53:13] INFO  WEBrick::HTTPServer#start done.
+2014-02-09T17:53:13.531524+00:00 app[web.1]: I, [2014-02-09T17:52:39.579158 #2]  INFO -- :   Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+2014-02-09T17:53:13.531524+00:00 app[web.1]: I, [2014-02-09T17:52:39.412273 #2]  INFO -- : Started GET "/" for 198.7.247.227 at 2014-02-09 17:52:39 +0000
+2014-02-09T17:53:13.531524+00:00 app[web.1]: => Booting WEBrick
+2014-02-09T17:53:13.531524+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:41890
+2014-02-09T17:53:13.531524+00:00 app[web.1]: I, [2014-02-09T17:52:39.580908 #2]  INFO -- : Completed 200 OK in 27ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+2014-02-09T17:53:13.531524+00:00 app[web.1]: I, [2014-02-09T17:52:39.549927 #2]  INFO -- : Processing by StaticPagesController#index as HTML
+2014-02-09T17:53:13.531524+00:00 app[web.1]: I, [2014-02-09T17:52:39.858845 #2]  INFO -- : Started GET "/assets/background.jpg" for 198.7.247.227 at 2014-02-09 17:52:39 +0000
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:45.829161 #2]  INFO -- : Started GET "/pics" for 198.7.247.227 at 2014-02-09 17:52:45 +0000
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:45.830902 #2]  INFO -- : Processing by PicsController#index as HTML
+2014-02-09T17:53:13.531524+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-02-09T17:53:13.531524+00:00 app[web.1]: I, [2014-02-09T17:52:39.693932 #2]  INFO -- : Started GET "/assets/application-d2a7c489a5948c36bb3c2726953ada08.js" for 198.7.247.227 at 2014-02-09 17:52:39 +0000
+2014-02-09T17:53:13.531524+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:45.855892 #2]  INFO -- :   Rendered pics/index.html.erb within layouts/application (21.8ms)
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:47.201014 #2]  INFO -- : Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:47.153554 #2]  INFO -- : Processing by PicsController#new as HTML
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:47.199997 #2]  INFO -- :   Rendered pics/new.html.erb within layouts/application (44.6ms)
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:47.151462 #2]  INFO -- : Started GET "/pics/new" for 198.7.247.227 at 2014-02-09 17:52:47 +0000
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:58.608735 #2]  INFO -- : Processing by PicsController#create as HTML
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:45.857116 #2]  INFO -- : Completed 200 OK in 26ms (Views: 13.1ms | ActiveRecord: 11.6ms)
+2014-02-09T17:53:13.531728+00:00 app[web.1]: I, [2014-02-09T17:52:58.607270 #2]  INFO -- : Started POST "/pics" for 198.7.247.227 at 2014-02-09 17:52:58 +0000
+2014-02-09T17:53:13.531893+00:00 app[web.1]: I, [2014-02-09T17:52:59.058653 #2]  INFO -- : Completed 500 Internal Server Error in 450ms
+2014-02-09T17:53:13.531893+00:00 app[web.1]: [WARNING] fog: the specified s3 bucket name(firehose_app) is not a valid dns name, which will negatively impact performance.  For details see: http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketRestrictions.html
+2014-02-09T17:53:13.531893+00:00 app[web.1]: I, [2014-02-09T17:52:58.608870 #2]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/GCLT/EfTJSoFQifGgcB+WDQHZTEyKvDmb91G+rMC8U=", "pic"=>{"hour"=>"4", "image"=>#<ActionDispatch::Http::UploadedFile:0x007febce638c58 @tempfile=#<Tempfile:/tmp/RackMultipart20140209-2-jdzzsc>, @original_filename="ilUeGzT.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pic[image]\"; filename=\"ilUeGzT.jpg\"\r\nContent-Type: image/jpeg\r\n">, "emotion"=>"stoked", "learned"=>"pictures"}, "commit"=>"Save"}
+2014-02-09T17:53:13.531893+00:00 app[web.1]: Excon::Errors::Forbidden (Expected(200) <=> Actual(403 Forbidden)
+2014-02-09T17:53:13.531893+00:00 app[web.1]: 
+2014-02-09T17:53:13.531893+00:00 app[web.1]: 
+2014-02-09T17:53:13.532440+00:00 app[web.1]: Exiting
+2014-02-09T17:53:13.531893+00:00 app[web.1]: F, [2014-02-09T17:52:59.060357 #2] FATAL -- : 
+2014-02-09T17:53:13.531893+00:00 app[web.1]:   request => {:connect_timeout=>60, :headers=>{"Content-Length"=>229594, "Content-Type"=>"image/jpeg", "x-amz-acl"=>"public-read", "Date"=>"Sun, 09 Feb 2014 17:52:58 +0000", "Authorization"=>"AWS AKIAJ2XYXB3OTWCYRJFA:+21UkDcGssOOPwPCGSdYcb3KOJs=", "Host"=>"s3.amazonaws.com:443"}, :instrumentor_name=>"excon", :mock=>false, :read_timeout=>60, :retry_limit=>4, :ssl_ca_file=>"/app/vendor/bundle/ruby/2.0.0/gems/excon-0.13.4/data/cacert.pem", :ssl_verify_peer=>true, :write_timeout=>60, :host=>"s3.amazonaws.com", :path=>"/firehose_app/uploads%2Fpic%2Fimage%2F5%2FilUeGzT.jpg", :port=>"443", :query=>nil, :scheme=>"https", :body=>#<File:/app/public/uploads/tmp/1391968378-2-1250/ilUeGzT.jpg>, :expects=>200, :idempotent=>true, :method=>"PUT"}
+2014-02-09T17:53:13.531893+00:00 app[web.1]:   response => #<Excon::Response:0x007febcbc79b38 @body="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BD0D197E72A384F1</RequestId><HostId>T1YVrC5KA554oWRSoeNzKXfouK6aaQJNMumhLHgkOALqitZz4gw9JWiVmchpHIc5</HostId></Error>", @headers={"x-amz-request-id"=>"BD0D197E72A384F1", "x-amz-id-2"=>"T1YVrC5KA554oWRSoeNzKXfouK6aaQJNMumhLHgkOALqitZz4gw9JWiVmchpHIc5", "Content-Type"=>"application/xml", "Transfer-Encoding"=>"chunked", "Date"=>"Sun, 09 Feb 2014 17:52:59 GMT", "Connection"=>"close", "Server"=>"AmazonS3"}, @status=403>):
+2014-02-09T17:53:13.531893+00:00 app[web.1]:   app/controllers/pics_controller.rb:17:in `create'
+2014-02-09T17:53:13.827059+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 7196 -e $RAILS_ENV`
+2014-02-09T17:53:14.664658+00:00 heroku[web.1]: Process exited with status 143
