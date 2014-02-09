@@ -38,6 +38,8 @@ gem "twitter-bootstrap-rails"
 #this is the gem for the forms
 gem 'simple_form'
 
+gem 'carrierwave'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

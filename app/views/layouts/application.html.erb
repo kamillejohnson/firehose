@@ -21,7 +21,7 @@
       </a>
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <%= link_to 'Firehose', root_path, :class => 'brand'%>
+      <%= link_to 'Home', root_path, :class => 'brand'%>
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
@@ -33,6 +33,9 @@
         <li>
         	<%= link_to 'Add Pictures', new_pic_path %>
         	<!-- Ruby link!! -->
+        </li>
+        <li>
+        <%= link_to 'return', root_path %>
         </li>
         </ul>
       </div>
